@@ -1,0 +1,8 @@
+The invoices table stores information about invoices, including the patient ID, amount, and status.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the invoice |
+| patient_id | INTEGER | Foreign key referencing the patients table |
+| amount | DECIMAL(10, 2) | Invoice amount |
+| status | VARCHAR(100) | Invoice status |
