@@ -1,0 +1,9 @@
+The patients table stores information about patients, including their name, email, phone number, and appointment history.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the patient |
+| name | VARCHAR(255) | Patient name |
+| email | VARCHAR(255) | Patient email |
+| phone_number | VARCHAR(20) | Patient phone number |
+| appointment_history | JSONB | Appointment history |
