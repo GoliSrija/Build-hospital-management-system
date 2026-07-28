@@ -1,0 +1,9 @@
+The providers table stores information about providers, including their name, email, phone number, and schedule.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the provider |
+| name | VARCHAR(255) | Provider name |
+| email | VARCHAR(255) | Provider email |
+| phone_number | VARCHAR(20) | Provider phone number |
+| schedule | JSONB | Provider schedule |
