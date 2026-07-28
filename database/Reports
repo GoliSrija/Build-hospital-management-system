@@ -1,0 +1,8 @@
+The reports table stores information about reports, including the date, type, and value.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the report |
+| date | DATE | Report date |
+| type | VARCHAR(100) | Report type |
+| value | INTEGER | Report value |
