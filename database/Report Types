@@ -1,0 +1,9 @@
+The report_types table stores information about report types, including the report type and description.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the report type |
+| type | VARCHAR(100) | Report type |
+| description | VARCHAR(255) | Report description |
+```
+Note that this is just a sample implementation and you may need to modify it to fit your specific use case.
