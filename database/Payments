@@ -1,0 +1,9 @@
+The payments table stores information about payments, including the invoice ID, payment method, amount, and payment date.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the payment |
+| invoice_id | INTEGER | Foreign key referencing the invoices table |
+| payment_method | VARCHAR(100) | Payment method |
+| amount | DECIMAL(10, 2) | Payment amount |
+| payment_date | DATE | Payment date |
