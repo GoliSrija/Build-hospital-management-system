@@ -1,0 +1,10 @@
+The appointments table stores information about appointments, including the patient and provider IDs, date, and time.
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| id | SERIAL | Unique identifier for the appointment |
+| patient_id | INTEGER | Foreign key referencing the patients table |
+| date | DATE | Appointment date |
+| time | TIME | Appointment time |
+| provider_id | INTEGER | Foreign key referencing the providers table |
+| scheduler_id | INTEGER | Foreign key referencing the schedulers table |
